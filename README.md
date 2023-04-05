@@ -2,6 +2,21 @@
 
 This project aims to analyze a company's ideal customers by performing customer personality analysis. It helps businesses better understand their customers, making it easier to modify products according to the specific needs, behaviors, and concerns of different customer types.
 
+## Files
+1. Root
+- EDA_FE: Exploratory Data Analysis and Feature Engineering
+- C_S: Clustering (DBSCAN) and Segmentation
+- PM: Prediction Models
+- CRM_RFM: Future work in RFM Analysis
+
+2. Data
+- marketing_campaign.csv: Original Data downloaded from Kaggle.
+- cm_FE: Data after feature engineering
+
+3. Models
+- finalized_model.sav: Ensemble model
+- model.pkl: Pickle file of the ensemble model
+
 ## Dataset
 
 The dataset used in this project is obtained from Kaggle [Customer Personality Analysis dataset](https://www.kaggle.com/datasets/imakash3011/customer-personality-analysis). It contains information about customers, their purchases, and interactions with the company. The dataset includes the following attributes:
